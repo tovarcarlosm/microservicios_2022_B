@@ -10,3 +10,7 @@ spring:
           username: "tovarcarlosm"
           password: "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"
         bootstrap: true
+  security:
+    user:
+      name: root
+      password: pass
