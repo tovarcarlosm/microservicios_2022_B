@@ -6,11 +6,9 @@ spring:
       server:
         git:
           uri: "https://github.com/tovarcarlosm/microservicios_2022_B.git"
-          search-paths: config-data
-          username: "tovarcarlosm"
-          password: "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"
-        bootstrap: true
-
+          searchPaths: "config-data"
+          username: ${GIT_USER}
+          password: ${GIT_PASS}
   security:
     user:
       name: root

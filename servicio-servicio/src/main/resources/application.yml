@@ -3,6 +3,8 @@ spring:
     name: servicio-servicio
   cloud:
     config:
-      uri: http://localhost:8081
       username: root
       password: pass
+  config:
+    import: optional:configserver:http://localhost:8383
+
