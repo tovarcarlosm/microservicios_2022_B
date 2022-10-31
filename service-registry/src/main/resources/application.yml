@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-registry
+  cloud:
+    config:
+      username: root
+      password: pass
+  config:
+    import: optional:configserver:http://localhost:8383
