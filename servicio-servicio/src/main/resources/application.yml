@@ -7,4 +7,3 @@ spring:
       password: pass
   config:
     import: optional:configserver:http://localhost:8383
-
